@@ -72,6 +72,10 @@ margin-top: 0;
   float: right;
 }
 
+.text-centered {
+  text-align: center;
+}
+
 .my-jumbotron {
   background-image: url("/assets/images/planet-network.jpg");
   background-position: center;
@@ -123,6 +127,28 @@ margin-top: 0;
 
 .project-description {
   font-size: 1.5em;
+}
+
+.contact-table {
+  margin: auto;
+}
+
+.contact-method {
+  font-size: 2.0em;
+  font-weight: 700;
+}
+
+.contact-method-header {
+  padding-right: 1.0em;
+  color: #0C3166;
+}
+
+.contact-method-value {
+  padding-right: 1.5em;
+}
+
+.contact-method-td {
+  padding-top:1.0em;
 }
 
 div.project-div>span.btn-span>a.btn-project {
