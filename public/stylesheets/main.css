@@ -1,0 +1,168 @@
+@font-face {
+  font-family: latoRegular;
+  src: url("/assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: latoBold;
+  src: url("/assets/fonts/Lato-Bold.ttf");
+}
+
+/* TEST FOR FOOTER */
+html {
+height: 100%;
+box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+body {
+position: relative;
+margin: 0;
+padding-bottom: 6rem;
+min-height: 100%;
+}
+
+.main-body {
+margin: 0 auto;
+}
+
+.main-body h1 {
+margin-top: 0;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: #0C3166;
+  color: white;
+  text-align: center;
+}
+
+/* END TEST FOR FOOTER */
+
+.lato-regular {
+  font-family: latoRegular;
+}
+
+.lato-bold {
+  font-family: latoBold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float: right;
+}
+
+.my-jumbotron {
+  background-image: url("/assets/images/planet-network.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.indent {
+  text-indent: 2.0em;
+}
+
+.bottom-spacing {
+  margin-bottom: 1.5em;
+}
+
+.colored-heading {
+  text-align: center;
+  background: #0C3166;
+  color: white;
+  padding: 1.0em;
+  border-top: 2px solid #7DF9FF;
+  border-bottom: 2px solid #7DF9FF;
+}
+
+.project-div {
+  border: 2.5px solid #0C3166;
+  border-radius: 10px;
+  padding: 1.0em;
+  margin-bottom: 5.0em;
+}
+
+.project-title {
+  margin-top: 0;
+}
+
+.project-image {
+  width:100%;
+  height:30.0vh;
+  background-image: url(/assets/images/planet-network.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius:10px;
+  margin-bottom:1.5em;
+}
+
+.project-description {
+  font-size: 1.5em;
+}
+
+div.project-div>span.btn-span>a.btn-project {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#my-navbar {
+  background: #0C3166;
+  border-color: #0C3166;
+  color: white;
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+
+#my-navbar-brand,
+.navbar-nav>li.navbar-li>a.navbar-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 250ms linear, border-bottom 250ms linear;
+  padding-bottom: 0;
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.navbar-nav>li.navbar-li>a.navbar-link:hover {
+  color: #7DF9FF;
+  border-color: #7DF9FF;
+  background: #00000000;
+}
+
+#my-navbar-brand:hover {
+  color: #7DF9FF;
+}
+
+#my-jumbotron {
+  color: white;
+  margin-bottom: 0;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "jeremy-codes",
+  "version": "1.0.0",
+  "description": "node app for personal project website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremy-codes/jeremy-codes.git"
+  },
+  "author": "Jeremy Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremy-codes/jeremy-codes/issues"
+  },
+  "homepage": "https://github.com/jeremy-codes/jeremy-codes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.8"
+  }
+}
