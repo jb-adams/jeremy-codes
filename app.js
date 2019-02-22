@@ -31,6 +31,6 @@ app.get("/projects/color-guessing-game", function(req, res) {
   res.render("projects/colorGuessingGame.ejs");
 })
 
-app.listen(80, '0.0.0.0', function() {
+app.listen(3000, '0.0.0.0', function() {
   console.log("server has started");
 })
