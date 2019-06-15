@@ -192,3 +192,43 @@ div.project-div>span.btn-span>a.btn-project {
   color: white;
   margin-bottom: 0;
 }
+
+/*
+##################################################
+# styles for resume
+##################################################
+*/
+
+#my-resume-frame {
+  width: 50%;
+}
+
+
+#resume-header {
+  text-align: center;
+  margin-bottom:5.0vh;
+}
+
+#resume-body {
+  margin-top: 5.0vh;
+  margin-bottom:5.0vh;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.resume-section-heading {
+  margin-bottom: 1.0em;
+  text-decoration: underline;
+}
+
+.resume-section-spacer {
+  margin-bottom: 2.0em;
+}
+
+@media (max-width: 1000px) {
+  #my-resume-frame {
+    width: 95%;   
+  }
+}
