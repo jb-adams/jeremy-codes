@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  text-align: center;
+}
+
+.all {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.list-left {
+  text-align: left;
+}
+
+.list-right {
+  text-align: right;
+}
+
+.chip {
+  /*
+  height: 5em;
+  width: 5em;
+  */
+  height: 7.5vh;
+  width: 7.5vh;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1em;
+}
+
+.unowned {
+  background-color: #bbb;
+}
+
+.p1-inactive {
+  background-color: #00000010;
+}
+
+.p1-active {
+  background-color: black;
+}
+
+.p2-inactive {
+  background-color: #FF000010;
+}
+
+.p2-active {
+  background-color: red;
+}
+
+nav#my-navbar.navbar {
+  margin: 0;
+}
+
+#frame {
+  /* height: 100vh; */
+}
+
+#header {
+  background: #3a72a7;
+  color: white;
+}
+
+#options {
+  background: white;
+  color: #3a72a7;
+}
+
+#mainGame {
+  background: black;
+  min-height: 75vh;
+}
+
+#message {
+  margin: 0;
+  padding-top: 20px;
+  text-transform: none;
+  font-size: 2.0em;
+}
+
+#gameFrame {
+  max-width: 750px;
+}
+
+#chip-entry {
+  background: white;
+}
+
+#board {
+  background: yellow;
+}
+
+.visible {
+  color: white;
+}
+
+.option {
+  padding: 1.0em;
+  margin-left: 1.0em;
+  margin-right: 1.0em;
+}
+
+.margin-auto {
+  margin: auto;
+}
